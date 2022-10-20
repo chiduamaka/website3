@@ -1,0 +1,105 @@
+body{
+	background-color:#1a1a1a;
+}
+span{
+	color:#d2ff4d
+}
+.main{
+	width:800px;
+	height:800px;
+	margin:auto;
+}
+.left{
+	width:250px;
+	height:850px;
+	float:left;
+	background-color:#1a1a1a;
+	color:white;
+	font-weight:bold;
+}
+.profile_pic{
+	width:250px;
+	height:200px;
+	background-image: url("alastor.jpg");
+	position:relative;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover
+}
+.transparent{
+	color:#d2ff4d;
+	width:250px;
+	height:50px;
+	font-size:15pt;
+	background-color:gray;
+	opacity:0.7;
+	text-align:center;
+	font-weight:bold;
+	position:absolute;
+	bottom:0
+}
+.small_rect{
+	width:250px;
+	height:3px;
+	background-color:#d2ff4d;
+	position:absolute;
+	bottom:0
+}
+.big_rect{
+	color:white;
+	width:250px;
+	height:25px;
+	background-color:#d2ff4d;
+	text-align:center
+}
+.right{
+	padding-left:260px;
+	width:800px;
+	height:800px;
+	background-color:#1a1a1a;
+	color:white
+}
+.big_rect2{
+	background-color:#d2ff4d;
+	width:500px;
+	height:25px;
+	color:white;
+	padding-left:40px
+}
+div.right p{
+	font-family:cursive
+}
+li{
+	color:#d2ff4d;
+}
+li span{
+	font-family:cursive;
+	color:white
+}
+.rating1{
+	height:10px;
+	width:100px;
+	background-color:#d2ff4d;
+	background-image: linear-gradient(to right, #d2ff4d 0%, #d2ff4d 95%, white 95%, white 100%);
+}
+.rating2{
+	height:10px;
+	width:100px;
+	background-color:#d2ff4d;
+	background-image: linear-gradient(to right, #d2ff4d 0%, #d2ff4d 70%, white 70%, white 100%);
+}
+.rating3{
+	height:10px;
+	width:100px;
+	background-color:#d2ff4d;
+	background-image: linear-gradient(to right, #d2ff4d 0%, #d2ff4d 30%, white 30%, white 100%);
+}
+.rating4{
+	height:10px;
+	width:100px;
+	background-color:#d2ff4d;
+	background-image: linear-gradient(to right, #d2ff4d 0%, #d2ff4d 80%, white 80%, white 100%);
+}
+p{
+	font-family:cursive
+}

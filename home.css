@@ -1,0 +1,95 @@
+body{
+	font-family:calibri;
+	background-color:#1a1a1a;
+	color:#d2ff4d
+}
+#menu_op{
+	float:right;
+	color:#d2ff4d
+}
+hr{
+	border-color:#d2ff4d
+}
+a{
+	text-decoration:none;
+	color:black;
+	padding: 14px 16px;
+	font-weight:bold
+}
+#home_logo{
+	width:150px;
+	height:50px
+}
+#intro{
+	font-size:82px
+}
+.social{
+	padding:0px;
+}
+.container{
+	display:flex;
+}
+#pic1{
+	width:250px;
+	height:200px;
+	background-image: url("robot.png");
+	position:relative;
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+#pic2{
+	width:250px;
+	height:200px;
+	background-image: url("social.png");
+	position:relative;
+	background-repeat:no-repeat;
+	background-position:center
+}
+#pic3{
+	width:250px;
+	height:200px;
+	background-image: url("football.png");
+	position:relative;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+#pic4{
+	width:250px;
+	height:200px;
+	background-image: url("islam.jpg");
+	position:relative;
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+#pic5{
+	width:250px;
+	height:200px;
+	background-image: url("cycle.png");
+	position:relative;
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+#trans{
+	width:256px;
+	height:50px;
+	font-size:15pt;
+	background-color:gray;
+	opacity:0.7;
+	text-align:center;
+	font-weight:bold;
+	position:absolute;
+	bottom:0
+}
+.act{
+	border:2px solid white;
+	text-align:center;
+	width:20%; 
+	height:450px; 
+	border-radius:10px; 
+	margin-right:10px
+}
+.act:hover{
+	border-color:#d2ff4d;
+	background-color:#d2ff4d;
+	color:black
+}
